@@ -1,0 +1,111 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .form-container,
+  .transacoes-container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 8px; /* Bordas mais arredondadas */
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input,
+  select,
+  button {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px; /* Bordas mais arredondadas */
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .transacoes-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .receitas,
+  .despesas {
+    width: 48%;
+    margin-top: 20px;
+  }
+  
+  .transacao {
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    list-style: none; /* Remover os pontos da lista */
+    border-radius: 5px; /* Bordas mais arredondadas */
+  }
+  
+  .transacao:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .totais {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .receitas h2,
+  .despesas h2 {
+    color: #4caf50;
+  }
+  
+  .receitas p,
+  .despesas p {
+    color: #333;
+  }
+  
+  .transacao button {
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .transacao button:hover {
+    background-color: #45a049;
+  }
+  
